@@ -1,0 +1,13 @@
+@import url("./__nav/header__nav.css");
+@import url("./__nav-item/header__nav-item.css");
+@import url("./__lang-link/header__lang-link.css");
+.header {
+  width: 984px;
+  height: 44px;
+  position: relative;
+  top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
