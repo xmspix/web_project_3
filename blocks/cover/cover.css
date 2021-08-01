@@ -1,0 +1,17 @@
+@import url("./__title/cover__title.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__overlay/cover__overlay.css");
+.cover {
+    margin: 92px auto 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("/images/cover-route-66.jpg");
+    background-position: center;
+    width: 1184px;
+    height: 740px;
+
+    position: relative;
+}
