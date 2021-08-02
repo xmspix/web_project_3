@@ -6,3 +6,11 @@
   line-height: 58px;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    margin-top: 64px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

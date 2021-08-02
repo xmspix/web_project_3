@@ -4,6 +4,25 @@
 @import url("./__list/intro__list.css");
 .intro {
   width: 690px;
-  height: 569px;
-  margin: 0 442px 0 148px;
+  margin: 0 auto 148px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 auto 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    margin: 0 auto 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    margin: 0 auto 64px;
+  }
 }

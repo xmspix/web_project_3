@@ -5,3 +5,9 @@
     top: 46px;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 320px) {
+    .footer__nav {
+        flex-direction: column;
+    }
+}

@@ -5,6 +5,20 @@
     text-align: center;
     color: #fffdfd;
     z-index: 1;
-
     margin-top: 283px;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+    .cover__title {
+        margin-top: 153px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .cover__title {
+        margin-top: 51px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
