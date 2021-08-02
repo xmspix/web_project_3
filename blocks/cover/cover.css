@@ -2,16 +2,15 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__overlay/cover__overlay.css");
 .cover {
-    margin: 92px auto 0;
-
+    position: relative;
     display: flex;
     flex-direction: column;
+    margin: 92px auto 0;
     align-items: center;
-
     background: url("/images/cover-route-66.jpg");
-    background-position: center;
     width: 1184px;
     height: 740px;
-
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
