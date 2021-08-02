@@ -3,26 +3,26 @@
 @import url("./__text/intro__text.css");
 @import url("./__list/intro__list.css");
 .intro {
-  width: 690px;
-  margin: 0 auto 148px;
+  max-width: 690px;
+  margin: 0 148px 92px;
 }
 
 @media only screen and (max-width: 1024px) {
   .intro {
-    margin: 0 auto 48px;
+    margin: 0 48px 92px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .intro {
-    width: 720px;
-    margin: 0 auto 24px;
+    max-width: 720px;
+    margin: 0 24px 88px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .intro {
-    width: 288px;
-    margin: 0 auto 64px;
+    max-width: 288px;
+    margin: 0 16px 64px;
   }
 }

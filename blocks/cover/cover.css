@@ -2,37 +2,37 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__overlay/cover__overlay.css");
 .cover {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 92px auto 0;
-    align-items: center;
-    background: url("/images/cover-route-66.jpg");
-    width: 1184px;
-    height: 740px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 92px auto 0;
+  align-items: center;
+  background: url("/images/cover-route-66.jpg");
+  max-width: 1184px;
+  height: 740px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media only screen and (max-width: 1024px) {
-    .cover {
-        width: 1024px;
-        height: 640px;
-    }
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .cover {
-        width: 768px;
-        height: 480px;
-    }
+  .cover {
+    width: 768px;
+    height: 480px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-    .cover {
-        margin: 64px auto 0;
-        width: 320px;
-        height: 200px;
-    }
+@media only screen and (max-width: 320px) {
+  .cover {
+    margin: 64px auto 0;
+    width: 320px;
+    height: 200px;
+  }
 }

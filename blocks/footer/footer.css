@@ -3,29 +3,29 @@
 @import url("./__link/footer__link.css");
 @import url("./__copyright/footer__copyright.css");
 .footer {
-    max-width: 1184px;
-    height: 18px;
-    display: flex;
-    justify-content: space-between;
-    margin: 92px 48px 24px 48px;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 92px 48px 24px 48px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .footer {
-        max-width: 928px;
-    }
+  .footer {
+    max-width: 928px;
+  }
 }
 
-@media only screen and (max-width: 1024px) {
-    .footer {
-        max-width: 720px;
-        margin: 88px 24px 24px;
-    }
+@media only screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin: 88px 24px 24px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .footer {
-        flex-direction: column;
-        /* margin: 64px 139px 24px 16px; */
-    }
+  .footer {
+    flex-direction: column;
+    /* margin: 64px 0 16px; */
+    max-width: 165px;
+  }
 }

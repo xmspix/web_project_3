@@ -1,5 +1,7 @@
 .lead__caption {
-  padding-top: 8px;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
@@ -11,6 +13,12 @@
 
 @media only screen and (max-width: 768px) {
   .lead__caption {
-    margin-left: 24px;
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
   }
 }
