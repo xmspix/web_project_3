@@ -20,7 +20,5 @@
 
   .cover__subtitle:first-line {
     max-width: 200px;
-    /* text-transform: uppercase; */
-    /* word-break: break-all; */
   }
 }
