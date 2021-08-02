@@ -2,7 +2,6 @@
 @import url("./__image/place__image.css");
 @import url("./__paragraphs/place__paragraphs.css");
 @import url("./__paragraph/place__paragraph.css");
-@import url("./__website/place__website.css");
 .place {
   display: grid;
   grid-column-gap: 40px;
