@@ -3,15 +3,14 @@
   margin: 0;
   list-style: none;
   display: flex;
-  max-height: 28px;
   top: 46px;
   color: #ffffff;
+  flex-direction: column;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 768px) {
   .footer__nav {
-    flex-direction: column;
-    max-width: 165px;
-    max-height: 198px;
+    flex-direction: row;
+    /* max-width: 165px; */
   }
 }

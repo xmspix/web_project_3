@@ -15,9 +15,15 @@
   opacity: 0.8;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
   }
 }

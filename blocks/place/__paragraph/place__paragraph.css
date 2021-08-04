@@ -21,6 +21,7 @@
 }
 @media only screen and (min-width: 768px) {
   .place__paragraph {
+    margin: 0;
     max-width: 352px;
   }
 }
@@ -28,6 +29,7 @@
   .place__paragraph {
     max-width: 456px;
     font-size: 18px;
+    line-height: 29px;
   }
 }
 @media only screen and (min-width: 1280px) {

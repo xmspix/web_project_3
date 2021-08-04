@@ -1,4 +1,4 @@
-.active {
+.header__lang-link_active {
   text-decoration: underline;
   text-underline-offset: 2.5px;
 }

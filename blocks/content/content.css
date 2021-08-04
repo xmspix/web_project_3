@@ -1,26 +1,26 @@
 .content {
   position: relative;
-  max-width: 1280px;
-  margin: 58px auto 0;
+  margin: 50px auto 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .content {
-    max-width: 1024px;
-    margin: 50px auto 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .content {
-    max-width: 768px;
-    margin: 50px auto 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .content {
     max-width: 320px;
-    margin: 50px auto 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content {
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .content {
+    max-width: 1280px;
+    margin: 58px auto 0;
   }
 }
