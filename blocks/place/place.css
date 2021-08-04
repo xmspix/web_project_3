@@ -4,31 +4,10 @@
 @import url("./__paragraph/place__paragraph.css");
 .place {
   display: grid;
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
-  grid-template-areas:
-    "title website"
-    "image paragraphs";
+  justify-content: center;
 }
 
-.place:not(:last-child) {
-  margin-bottom: 72px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .place {
-    max-width: 984px;
-    grid-column-gap: 32px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .place {
-    grid-column-gap: 28px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   .place {
     grid-row-gap: 30px;
     grid-template-areas:
@@ -37,8 +16,34 @@
       "image"
       "paragraphs";
   }
-
   .place:not(:last-child) {
     margin-bottom: 48px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .place {
+    grid-column-gap: 28px;
+    grid-template-areas:
+      "title website"
+      "image paragraphs";
+  }
+  .place:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .place {
+    max-width: 984px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    max-width: 984px;
+    grid-column-gap: 40px;
+    /* grid-row-gap: 48px; */
   }
 }
