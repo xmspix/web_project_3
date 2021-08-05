@@ -1,10 +1,6 @@
 .cover__overlay {
   text-decoration: none;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-color: rgb(42, 44, 47, 0.3);
   cursor: pointer;
   transition: 0.5s;

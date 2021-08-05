@@ -2,7 +2,6 @@
 @import url("./__nav/header__nav.css");
 @import url("./__nav-item/header__nav-item.css");
 @import url("./__lang-link/header__lang-link.css");
-@import url("./__lang-link_active/header__lang-link_active.css");
 .header {
   position: relative;
   display: flex;
